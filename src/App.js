@@ -1,26 +1,46 @@
 import React from 'react';
 import './App.css';
-
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaFilePdf,
+  FaCode
+} from 'react-icons/fa';
+import { IoIosGitBranch } from 'react-icons/io';
 function App() {
   return (
     <div className="">
       <h1>Eliot Woodrich</h1>
-      <h5>B.S. Computer Science at Portland State University</h5>
-      <h5>(expected graduation: June 2020)</h5>
-      <div>
-        <a href="https://storage.googleapis.com/ekwoodrich/EliotWoodrichLinkedIn.pdf">
-          Resume/CV
-        </a>{' '}
-        &#183;&nbsp;
-        <a href="/portfolio">Projects</a>
+
+      <h5 id="schoolInfo">
+        B.S. Computer Science at Portland State University
+      </h5>
+      <h5 id="gradInfo">(expected graduation: June 2020)</h5>
+      <div class="buttonLine">
+        <a
+          class="linkButton"
+          href="https://storage.googleapis.com/ekwoodrich/EliotWoodrichLinkedIn.pdf"
+        >
+          <FaFilePdf /> Resume
+        </a>
+        <a class="linkButton" href="/portfolio">
+          <FaCode /> Projects
+        </a>
       </div>
       <div class="linkItem">
-        <a href="https://github.com/ekwoodrich">Github</a> &#183;&nbsp;
-        <a href="https://www.linkedin.com/in/eliot-woodrich-a83459bb">
-          LinkedIn
+        <a class="linkButton" href="https://github.com/ekwoodrich">
+          <FaGithub /> Github
         </a>
-        &nbsp;&#183;&nbsp;
-        <a href="mailto:eliot@woodrich.com">Email</a>
+        <a
+          class="linkButton"
+          href="https://www.linkedin.com/in/eliot-woodrich-a83459bb"
+        >
+          <FaLinkedin /> LinkedIn
+        </a>
+        <a class="linkButton" href="mailto:eliot@woodrich.com">
+          <FaEnvelope /> Email
+        </a>
       </div>
     </div>
   );
