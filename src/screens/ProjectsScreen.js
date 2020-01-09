@@ -9,7 +9,7 @@ function ProjectsScreen(props) {
       <div className="projectBox">
         <ProjectItem
           name="ThinkWithin"
-          description="Life management and notetaking app with cross-platform support for Android/iOS "
+          description="Life management and notetaking app with cross-platform support for Android/iOS."
           url="https://github.com/ekwoodrich/thinkwithin"
           gitUrl="https://github.com/ekwoodrich/thinkwithin"
           techList={[
@@ -53,12 +53,12 @@ function ProjectsScreen(props) {
         <ProjectItem
           name="KindLit"
           description="Web app to simplify sending PDF and MOBI files to a Kindle device."
-          url="kindlit.app"
+          url="https://kindlit.app"
           techList={[
             ['Language', 'Javascript (ES6+)'],
             ['Tools', 'Git'],
-            ['Microservice', 'Cloud Functions'],
-            ['APIs', 'Mailgun']
+            ['APIs', 'Mailgun'],
+            ['Microservice', 'Cloud Functions']
           ]}
         />
       </div>
