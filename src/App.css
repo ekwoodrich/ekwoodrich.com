@@ -126,3 +126,20 @@ a:visited {
   font-size: 16pt;
   color: white;
 }
+.footer {
+  color: #888;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.footerText {
+  font-size: 12pt;
+}
+.footerLink {
+  color: #888;
+  font-size: 12pt;
+}
+
+.footerLink {
+  color: #888;
+  font-size: 12pt;
+}
