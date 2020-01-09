@@ -32,6 +32,16 @@ function ProjectsScreen(props) {
           ['APIs', 'Mailgun']
         ]}
       />
+      <ProjectItem
+        name="python-netsurv"
+        description="Python library for configuring a wide range of IP cameras which use the NETsurveillance ActiveX plugin (aka DVRIP, Sofia)"
+        url="https://istoria.io"
+        techList={[
+          ['Language', 'Python 3'],
+          ['Tools', 'Git/Husky/ pip'],
+          ['Reverse Engineering', 'Wireshark']
+        ]}
+      />
     </div>
   );
 }

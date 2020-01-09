@@ -28,9 +28,6 @@ function HomeScreen(props) {
         <LinkButton url="https://storage.googleapis.com/ekwoodrich/EliotWoodrichLinkedIn.pdf">
           <FaGithub /> Resume
         </LinkButton>
-        <Link className="linkButton" to="/projects">
-          <FaCode /> Projects
-        </Link>
       </div>
       <div class="linkItem">
         <LinkButton url="https://github.com/ekwoodrich">
