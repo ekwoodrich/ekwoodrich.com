@@ -18,7 +18,7 @@ function ProjectsScreen(props) {
             ['UI', 'React Native Paper'],
             ['Hosting', 'Firebase'],
             ['DB', 'Cloud Firestore'],
-            ['Tools', 'Git/Husky/ Yarn'],
+            ['Tools', 'Git/Husky/ Yarn/npm'],
             ['APIs', 'Mailgun'],
             ['Microservice', 'Cloud Functions']
           ]}
@@ -33,7 +33,7 @@ function ProjectsScreen(props) {
             ['UI', 'Material UI'],
             ['Hosting', 'Firebase'],
             ['DB', 'Cloud Firestore'],
-            ['Tools', 'Git/Husky/ Yarn'],
+            ['Tools', 'Git/Husky/ Yarn/npm'],
             ['APIs', 'Mailgun'],
             ['Microservice', 'Cloud Functions']
           ]}
@@ -56,7 +56,7 @@ function ProjectsScreen(props) {
           url="kindlit.app"
           techList={[
             ['Language', 'Javascript (ES6+)'],
-            ['Tools', 'Git/Husky/ pip'],
+            ['Tools', 'Git'],
             ['Microservice', 'Cloud Functions'],
             ['APIs', 'Mailgun']
           ]}
