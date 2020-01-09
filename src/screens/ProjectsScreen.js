@@ -14,7 +14,7 @@ function ProjectsScreen(props) {
           gitUrl="https://github.com/ekwoodrich/thinkwithin"
           techList={[
             ['Language', 'JavaScript (ES6+)'],
-            ['Framework', 'React'],
+            ['Framework', 'React Native'],
             ['UI', 'React Native Paper'],
             ['Hosting', 'Firebase'],
             ['DB', 'Cloud Firestore'],
@@ -57,9 +57,8 @@ function ProjectsScreen(props) {
           techList={[
             ['Language', 'Javascript (ES6+)'],
             ['Tools', 'Git/Husky/ pip'],
-            ['Reverse Engineering', 'Wireshark'],
-            ['Repository', 'PyPI'],
-            ['Microservice', 'Cloud Functions']
+            ['Microservice', 'Cloud Functions'],
+            ['APIs', 'Mailgun']
           ]}
         />
       </div>
