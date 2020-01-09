@@ -19,7 +19,8 @@ function ProjectsScreen(props) {
             ['Hosting', 'Firebase'],
             ['DB', 'Cloud Firestore'],
             ['Tools', 'Git/Husky/ Yarn'],
-            ['APIs', 'Mailgun']
+            ['APIs', 'Mailgun'],
+            ['Microservice', 'Cloud Functions']
           ]}
         />
         <ProjectItem
@@ -33,7 +34,8 @@ function ProjectsScreen(props) {
             ['Hosting', 'Firebase'],
             ['DB', 'Cloud Firestore'],
             ['Tools', 'Git/Husky/ Yarn'],
-            ['APIs', 'Mailgun']
+            ['APIs', 'Mailgun'],
+            ['Microservice', 'Cloud Functions']
           ]}
         />
         <ProjectItem
@@ -45,6 +47,19 @@ function ProjectsScreen(props) {
             ['Tools', 'Git/Husky/ pip'],
             ['Reverse Engineering', 'Wireshark'],
             ['Repository', 'PyPI']
+          ]}
+        />
+
+        <ProjectItem
+          name="KindLit"
+          description="Web app to simplify sending PDF and MOBI files to a Kindle device."
+          url="kindlit.app"
+          techList={[
+            ['Language', 'Javascript (ES6+)'],
+            ['Tools', 'Git/Husky/ pip'],
+            ['Reverse Engineering', 'Wireshark'],
+            ['Repository', 'PyPI'],
+            ['Microservice', 'Cloud Functions']
           ]}
         />
       </div>
