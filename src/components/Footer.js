@@ -4,8 +4,8 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="footerText">
-        This site was implemented using React + plain CSS + react-snap (to
-        optimize static site).
+        Implemented using React + plain CSS + react-snap (to optimize static
+        site).
       </div>
       <div>
         <a
