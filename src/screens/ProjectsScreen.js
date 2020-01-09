@@ -56,6 +56,7 @@ function ProjectsScreen(props) {
           url="https://kindlit.app"
           techList={[
             ['Language', 'Javascript (ES6+)'],
+            ['Framework', 'React'],
             ['Tools', 'Git'],
             ['APIs', 'Mailgun'],
             ['Microservice', 'Cloud Functions']
