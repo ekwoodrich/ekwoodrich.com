@@ -4,7 +4,7 @@ import ProjectItem from '../components/ProjectItem';
 function ProjectsScreen(props) {
   return (
     <div>
-      <h3 className="projectsHeading">Portfolio</h3>
+      {/* <h3 className="projectsHeading">Portfolio</h3> */}
 
       <div className="projectBox">
         <ProjectItem
