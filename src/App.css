@@ -49,6 +49,8 @@ h1 {
   padding-bottom: 5px;
 }
 h3 {
+  color: #888;
+  margin-bottom: 0;
 }
 h5 {
   color: #888;
@@ -65,7 +67,8 @@ a:visited {
 }
 
 .projectItemContainer {
-  max-width: 500px;
+  max-width: 420px;
+  margin-top: 15px;
 }
 .projectItemTech {
   margin: 10px;
@@ -79,6 +82,7 @@ a:visited {
   padding-bottom: 10px;
   margin: 0;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .projectItemBox p {
   font-size: 14pt;
@@ -86,7 +90,7 @@ a:visited {
 }
 .projectItemName {
   margin: 0;
-  margin-bottom: 20pt;
+  margin-bottom: 10px;
   padding: 0;
   font-size: 18pt;
 }

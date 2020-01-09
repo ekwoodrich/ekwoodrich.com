@@ -6,11 +6,26 @@ function ProjectsScreen(props) {
     <div>
       <h3>Projects</h3>
       <ProjectItem
+        name="ThinkWithin"
+        description="Life management and notetaking app with cross-platform support for Android/iOS "
+        url="https://thinkwithin.app"
+        gitUrl="https://github.com/ekwoodrich/thinkwithin"
+        techList={[
+          ['Framework', 'React'],
+          ['UI', 'React Native Paper'],
+          ['Hosting', 'Firebase'],
+          ['DB', 'Firestore'],
+          ['Tools', 'Git/Husky/ Yarn'],
+          ['APIs', 'Mailgun']
+        ]}
+      />
+      <ProjectItem
         name="istoria.io"
+        description="Web platform for collaboration, editing and feedback focused on creative writing."
         url="https://istoria.io"
         techList={[
-          ['UI', 'Material UI'],
           ['Framework', 'React'],
+          ['UI', 'Material UI'],
           ['Hosting', 'Firebase'],
           ['DB', 'Firestore'],
           ['Tools', 'Git/Husky/ Yarn'],

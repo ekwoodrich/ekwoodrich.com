@@ -9,11 +9,11 @@ function ProjectItem({ name, description, url, gitUrl, techList }) {
   ));
   return (
     <div className="projectItemContainer">
-      <a className="projectItemName" href="https://istoria.io">
-        istoria.io
+      <a className="projectItemName" href={url}>
+        {name}
       </a>
       <div className="projectItemBox">
-        <p>Platform for creative writing and collaboration </p>
+        <p>{description}</p>
         <div className="projectTechBox">{projectTechItems}</div>
       </div>
     </div>
