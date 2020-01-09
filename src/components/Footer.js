@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="footerText">
-        Implemented using React + plain CSS + react-snap
+        Implemented with React + react-snap + plain CSS
       </div>
       <div>
         <a
