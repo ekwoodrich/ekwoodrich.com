@@ -34,7 +34,7 @@ function ProjectsScreen(props) {
       />
       <ProjectItem
         name="python-netsurv"
-        description="Python library for configuring a wide range of IP cameras which use the NETsurveillance ActiveX plugin (aka DVRIP, Sofia)"
+        description="Python library for configuring a wide range of IP cameras which use the NETsurveillance ActiveX plugin. Available on PyPI."
         url="https://istoria.io"
         techList={[
           ['Language', 'Python 3'],
