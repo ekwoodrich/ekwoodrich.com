@@ -13,7 +13,7 @@ function ProjectsScreen(props) {
           url="https://github.com/ekwoodrich/thinkwithin"
           gitUrl="https://github.com/ekwoodrich/thinkwithin"
           techList={[
-            ['Language', 'JavaScript (ES6)'],
+            ['Language', 'JavaScript (ES6+)'],
             ['Framework', 'React'],
             ['UI', 'React Native Paper'],
             ['Hosting', 'Firebase'],
@@ -27,7 +27,7 @@ function ProjectsScreen(props) {
           description="Web platform for collaboration, editing and feedback focused on creative writing."
           url="https://istoria.io"
           techList={[
-            ['Language', 'JavaScript (ES6)'],
+            ['Language', 'JavaScript (ES6+)'],
             ['Framework', 'React'],
             ['UI', 'Material UI'],
             ['Hosting', 'Firebase'],
