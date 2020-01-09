@@ -4,11 +4,11 @@ import ProjectItem from '../components/ProjectItem';
 function ProjectsScreen(props) {
   return (
     <div>
-      <h3>Projects</h3>
+      <h3 className="projectsHeading">Projects</h3>
       <ProjectItem
         name="ThinkWithin"
         description="Life management and notetaking app with cross-platform support for Android/iOS "
-        url="https://thinkwithin.app"
+        url="https://github.com/ekwoodrich/thinkwithin"
         gitUrl="https://github.com/ekwoodrich/thinkwithin"
         techList={[
           ['Framework', 'React'],
@@ -35,7 +35,7 @@ function ProjectsScreen(props) {
       <ProjectItem
         name="python-netsurv"
         description="Python library for configuring a wide range of IP cameras which use the NETsurveillance ActiveX plugin. Available on PyPI."
-        url="https://istoria.io"
+        url="https://github.com/sofia-netsurv/python-netsurv/blob/master/netsurv/dvrip.py"
         techList={[
           ['Language', 'Python 3'],
           ['Tools', 'Git/Husky/ pip'],
