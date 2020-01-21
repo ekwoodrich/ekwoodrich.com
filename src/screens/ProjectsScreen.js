@@ -9,7 +9,7 @@ function ProjectsScreen(props) {
       <div className="projectBox">
         <ProjectItem
           name="ThinkWithin"
-          description="Life management and notetaking app with cross-platform support for Android/iOS."
+          description="Task management/notetaking app with cross-platform support for Android/iOS."
           url="https://github.com/ekwoodrich/thinkwithin"
           gitUrl="https://github.com/ekwoodrich/thinkwithin"
           techList={[

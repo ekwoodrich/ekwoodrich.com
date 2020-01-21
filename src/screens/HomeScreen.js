@@ -26,12 +26,12 @@ function HomeScreen(props) {
       <div className="">
         <h1>Eliot Woodrich</h1>
         <h5 id="schoolInfo">Full Stack Developer</h5>
-        {/* <div class="buttonLine">
-        <LinkButton url="https://storage.googleapis.com/ekwoodrich/EliotWoodrichLinkedIn.pdf">
-          <FaGithub /> Resume
-        </LinkButton>
-      </div> */}
         <div class="buttonLine">
+          <LinkButton url="https://storage.cloud.google.com/ekwoodrich/EliotWoodrichResume012020.pdf">
+            <FaGithub /> Resume
+          </LinkButton>
+        </div>
+        <div class="">
           <div class="linkItem">
             <LinkButton url="https://github.com/ekwoodrich">
               <FaGithub /> Github
@@ -40,7 +40,7 @@ function HomeScreen(props) {
               <FaLinkedin /> LinkedIn
             </LinkButton>
             <LinkButton url="mailto:ekwoodrich@gmail.com">
-              <FaEnvelope /> Email{' '}
+              <FaEnvelope /> Email
             </LinkButton>
           </div>
         </div>
