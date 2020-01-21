@@ -28,7 +28,7 @@ function HomeScreen(props) {
         <h5 id="schoolInfo">Full Stack Developer</h5>
         <div class="buttonLine">
           <LinkButton url="https://storage.cloud.google.com/ekwoodrich/EliotWoodrichResume012020.pdf">
-            <FaGithub /> Resume
+            <FaFilePdf /> Resume
           </LinkButton>
         </div>
         <div class="">
